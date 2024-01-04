@@ -1,0 +1,69 @@
+.card{
+	transition:transform 1s,border-radius 1s,box-shadow 1s;
+	 border: 2px solid transparent;
+
+}
+.card:hover{
+	transform:translateY(15px); 
+	border-radius: 10px;
+	box-shadow: 0 0 2px 6px grey;
+}
+.card{
+	border:2px solid transparent;
+
+}
+#slide{
+	margin-left: 350px;
+	margin-bottom: 70px;
+	
+}
+.text-block{
+	position: absolute;
+	padding-left: 20px;
+	padding-right: 20px;
+	bottom: 200px;
+	color: white; 
+	right: 30px;
+}
+#sbtn{
+	background-color: black;
+	border: 2px solid white;
+	padding: 0;
+	margin: 10%;
+	height: 40px;
+	width: 30px;
+}
+#box{
+	position: relative;
+}
+#bnc{
+	animation: bounce 0.4s ease 0s infinite alternate both;
+border-radius: 50px;
+background:purple;
+color: whitesmoke;
+cursor: pointer;
+font-size: 40px;
+font-weight: 500;
+letter-spacing: 3px;
+padding: 4px;
+margin-top: 40px;
+display: inline-block;
+vertical-align:top ;
+text-transform: uppercase;
+position: relative;
+        }
+        @keyframes bounce{
+            0%{
+                bottom: 0;
+                box-shadow: 0 0 5px rgba(31, 29, 29, 0.7);
+            }
+            100%{
+                bottom: 60px;
+                box-shadow: 0;
+            }
+}
+#foot ul li a,#foot1 a{
+	color: white;
+	text-decoration: none;
+	font-size: 15px;
+}
